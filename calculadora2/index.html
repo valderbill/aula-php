@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 2</title>
+</head>
+<body>
+    <form action="result.php" method="post">
+        <label for="n1">Informe o primeiro número:</label><br />
+        <input type="text" name="n1" id="n1" /><br /><br />
+
+        <label for="n2">Informe o segundo número:</label><br />
+        <input type="text" name="n2" id="n2" /><br /><br />
+
+        <label for="calc">Escolha o cálculo:</label><br />
+        <select name="calc" id="calc">
+            <option value="quadrilátero">Área do Quadrilátero</option>
+            <option value="triângulo">Área do Triângulo</option>
+            <option value="equação">Equação de 1º Grau</option>
+        </select><br /><br />
+
+        <button type="submit">Resultado</button>
+    </form>
+</body>
+</html>
